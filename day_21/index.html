@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    .box_item {
+        height: 200px;
+        width: 200px;
+        background-color: yellow;
+    }
+    .box{ display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;}
+    @media only screen and (max-width:768px) {
+        body{ background-color: rgb(57, 3, 56);}
+        .box{flex-direction: column; }
+        
+    }
+    @media only screen and (max-width:400px) {
+        body{ background-color: rgb(245, 39, 16);}
+        .box{flex-direction:row; }
+        
+    }
+   
+  
+</style>
+
+<body>
+    <div class="box">
+        <div class="box_item"></div>
+        <div class="box_item"></div>
+        <div class="box_item"></div>
+        <div class="box_item"></div>
+        <div class="box_item"></div>
+        <div class="box_item"></div>
+        <div class="box_item"></div>
+        <div class="box_item"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.instagram {
+    background-color: rgb(11, 10, 10);
+    height: 100vh;
+    color: white;
+    display: flex;
+    width: 100%;
+
+}
+
+.side_bar {
+    width: 20%;
+
+    height: 100vh;
+    padding: 20px;
+    overflow-y: hidden;
+}
+
+h3 {
+    padding-left: 30px;
+    font-size: 30px;
+
+}
+
+.side_menu {
+    padding: 30px;
+    line-height: 45px;
+
+}
+
+.itme {
+    font-size: 16px;
+}
+
+.fa-solid {
+    margin-right: 10px;
+}
+
+.fa-brands {
+    margin-right: 10px;
+}
+
+.post_section {
+    width: 50%;
+
+
+}
+
+.post_story {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+   
+    width: 100%;
+}
+
+.add_image {}
+
+.post_story img {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: 3px solid rgb(238, 36, 174);
+}
+
+p {
+    font-size: 12px;
+}
+
+.post_content { 
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 500px;
+
+
+}
+
+.text_profile {
+    display: flex;
+    gap: 20px;
+}
+.text_profile p{ margin-top: 10px;}
+
+.text_profile img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.image {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.suggestion{ width: 30%; 
+}
+.suggestion_text{ display: flex;
+justify-content: space-around;
+margin-top: 10px; margin-top: 40px;}
+
+.suggestion_text a{ margin-top: 20px;
+    outline: none;
+}
+.sug_you{ display: flex;
+justify-content: space-around;
+margin-top: 20px;}
+
+.sug_dwon{  margin-top: 20px; 
+
+line-height: 50px;
+ }
+
+.sug_dwon_profile{  display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.sug_dwon_profile img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.sug_dwon_profile img {
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.add{ display: flex;
+gap: 10px;}

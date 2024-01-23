@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .section-1 {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            background-image: url(https://media.istockphoto.com/id/1404885250/photo/mahabaleshwar-and-panchagani-nature-and-hill-areas.jpg?s=612x612&w=is&k=20&c=RtkcMImZovRNGcmU1DbsGjQKgzYdMQAxstXBVDfVAes=);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+        }
+
+
+        .section-2 {
+            height: 100vh;
+            width: 100%;
+            background-color: rgb(7, 7, 7);
+        }
+
+        .main_image {
+            display: flex;
+            justify-content: centera;
+            align-items: center;
+            position: relative;
+            height: 300px;
+            width: 200px;
+        }
+
+        .main_image img {
+            height: 300px;
+            width: 200px;
+            border-radius: 20px;
+            z-index: 1;
+
+        }
+
+        .inside {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+
+        }
+
+        .inside img {
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            border: 2px solid rgb(249, 249, 249);
+            position: relative;
+            right: 40px;
+            
+        }
+
+        p {
+            position: relative;
+            top: 230px;
+            color: white;
+            font-weight: 900;
+        }
+
+        .box {
+            height: 100px;
+            width: 100px;
+            background-color: cyan;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+
+        .section-3 {
+            height: 700px;
+            width: 100%;
+            display: flex;
+            background-color: bisque;
+        }
+
+        .navbar {
+            background-color: blue;
+            display: flex;
+            height: 20px;
+            width: 100%;
+            justify-content: space-around; position: sticky; top: 10px;
+            z-index:2 ;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    
+    <div class="navbar">
+        <div class="item-3">home</div>
+        <div class="item-3">course</div>
+        <div class="item-3">details</div>
+        <div class="item-3">detilas</div>
+    </div>
+    <section class="section-1">
+
+
+
+
+
+        <div class="main_image">
+
+            <img src="https://cdn.pixabay.com/photo/2023/10/05/16/23/bird-8296358_640.jpg" alt="">
+            <div class="inside">
+                <p>add to <br> story</p>
+                <img src="https://cdn.pixabay.com/photo/2023/03/29/19/32/man-7886201_640.jpg" alt="">
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class="main_image" >
+
+            <img src=" https://cdn.pixabay.com/photo/2023/12/22/09/46/cotton-top-tamarin-8463471_640.jpg" alt="">
+            <div class="inside">
+                <p>add to <br> story</p>
+                <img src="https://cdn.pixabay.com/photo/2023/03/29/19/32/man-7886201_640.jpg" alt="">
+            </div>
+
+
+
+        </div>
+        <div class="main_image">
+
+            <img src="https://cdn.pixabay.com/photo/2023/03/29/19/32/man-7886201_640.jpg" alt="">
+            <div class="inside">
+                <p>add to <br> story</p>
+                <img src="https://cdn.pixabay.com/photo/2023/03/29/19/32/man-7886201_640.jpg" alt="">
+            </div>
+
+
+
+        </div>
+    </section>
+    <div class="section-2">
+        <div class="box"> </div>
+
+
+
+
+        
+    </div>
+
+    <div class="section-3">
+       
+    </div>
+
+    </div>
+
+</body>
+
+</html>

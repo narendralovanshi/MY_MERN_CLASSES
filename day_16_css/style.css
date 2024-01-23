@@ -1,0 +1,7 @@
+*{margin: 0;padding: 0;}
+body{  background-color: black; color: white; overflow-x: hidden;}
+.box1{ height: 10vh;  width: 20%;  background-color: blueviolet;  }
+.box2{ height: 10vh; width: 20%; background-color:  cornsilk;  }
+.box3{ height: 10vh; width: 20% ; float: right; background-color: rgb(192, 207, 20);}
+.b1{   }
+.b2{ }

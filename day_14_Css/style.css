@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.relative {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: relative;
+    top: 50px;
+}
+.absolute{  height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(222, 38, 13);
+    position: absolute;1
+    top: 20px;}

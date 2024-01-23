@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: yellow;
+    width: 80%;
+    height: 40vh;
+    margin: auto;
+
+}
+
+.inline {
+    display: inline;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+.inline-block {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+img {
+    height: 200px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+div~p{ background-color: yellow; margin:2PX;}
